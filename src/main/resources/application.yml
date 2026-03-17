@@ -26,6 +26,14 @@ spring:
       port: 6379
       password: HuHuDiDi@2026!
 
+  # RabbitMQ 配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: ceasejoy
+    password: HuHuDiDi@2026!
+    virtual-host: /
+
 # 服务端口
 server:
   port: 8080
