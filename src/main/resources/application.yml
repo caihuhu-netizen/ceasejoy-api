@@ -24,6 +24,7 @@ spring:
     redis:
       host: localhost
       port: 6379
+      password: HuHuDiDi@2026!
 
 # 服务端口
 server:
